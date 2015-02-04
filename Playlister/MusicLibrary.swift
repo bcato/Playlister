@@ -11,7 +11,7 @@ import Foundation
 
 struct MusicLibrary {
 
-    let Library = [
+    let library = [
         [
             "title": "Rise and Shine",
             "description": "Get your morning going by singing along to these classic tracks as you hit the shower bright and early!",
