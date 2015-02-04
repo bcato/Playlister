@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		806D517A1A81C24C0050B3CF /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D51791A81C24C0050B3CF /* MusicLibrary.swift */; };
+		806D517C1A81C46F0050B3CF /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D517B1A81C46F0050B3CF /* Playlist.swift */; };
 		80C833781A80705D00CC065D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C833771A80705D00CC065D /* AppDelegate.swift */; };
 		80C8337A1A80705D00CC065D /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C833791A80705D00CC065D /* PlaylistMasterViewController.swift */; };
 		80C8337D1A80705D00CC065D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C8337B1A80705D00CC065D /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		806D51791A81C24C0050B3CF /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		806D517B1A81C46F0050B3CF /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		80C833721A80705D00CC065D /* Playlister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playlister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C833761A80705D00CC065D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80C833771A80705D00CC065D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				80C833791A80705D00CC065D /* PlaylistMasterViewController.swift */,
 				80C833971A80735F00CC065D /* PlaylistDetailViewController.swift */,
 				80C8337B1A80705D00CC065D /* Main.storyboard */,
+				806D51791A81C24C0050B3CF /* MusicLibrary.swift */,
+				806D517B1A81C46F0050B3CF /* Playlist.swift */,
 				80C8337E1A80705D00CC065D /* Images.xcassets */,
 				80C833801A80705D00CC065D /* LaunchScreen.xib */,
 				80C833751A80705D00CC065D /* Supporting Files */,
@@ -218,6 +224,8 @@
 				80C833981A80735F00CC065D /* PlaylistDetailViewController.swift in Sources */,
 				80C8337A1A80705D00CC065D /* PlaylistMasterViewController.swift in Sources */,
 				80C833781A80705D00CC065D /* AppDelegate.swift in Sources */,
+				806D517A1A81C24C0050B3CF /* MusicLibrary.swift in Sources */,
+				806D517C1A81C46F0050B3CF /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				80C833931A80705D00CC065D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C833941A80705D00CC065D /* Build configuration list for PBXNativeTarget "PlaylisterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				80C833961A80705D00CC065D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

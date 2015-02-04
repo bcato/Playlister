@@ -15,7 +15,7 @@ class PlaylistMasterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-            aButton.setTitle("Press Me", forState: .Normal)
+        aButton.setTitle("Press Me", forState: .Normal)
         
     }
 
@@ -23,16 +23,13 @@ class PlaylistMasterViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
     
-    override func prepareForSegue(segue: UIStoryBoardSegue!, sender: AnyObject?) {
-        if (segue.identifier == "showPlaylistDetail") {
-            let playlistDetailController = segue.destinationViewController as playlistDetailViewController
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showPlaylistDetail" {
+            let playlistDetailController = segue.destinationViewController as PlaylistDetailViewController
+            playlistDetailController.segueLabelText = "Nice! You pressed the button"
         }
     }
-    
-    
-    
-
 }
 
